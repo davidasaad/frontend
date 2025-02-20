@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+}
+
+
+h1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 90px;
+  background-color: black;
+  color: white;
+  height: 90px;
+}
+
+.right{
+  display: flex;
+  gap: 15px;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: bisque;
+  border: 1px solid #9e2c2c;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1)
+}
+
+.movie-description p, .actor-rentals p, .Customer_Detials p{
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+
+ul button{
+  background-color: rgb(56, 137, 208);
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
